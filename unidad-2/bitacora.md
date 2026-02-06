@@ -12,8 +12,15 @@ M=1
 
 ACTIVIDAD 2
 
+@1
+D=A
+@a
+M=D
+
+
 ## Bitácora de aplicación 
 
 
 
 ## Bitácora de reflexión
+
