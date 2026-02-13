@@ -27,9 +27,93 @@ M=-1
 # ACTIVIDAD 3
 
 ## Bitácora de aplicación 
+# ACTIVIDAD 8
+//Problema 1
+@10
+D=A
+@a
+M=D
 
+@20
+D=A
+@b
+M=D
+
+@a
+D=A
+@R0
+M=D
+
+@b
+D=A
+@R1
+M=D
+
+@RETURN
+D=A
+@R15
+M=D
+
+   
+@SWAP
+0;JMP
+
+(RETURN)
+
+
+(END)
+@END
+0;JMP
+
+
+
+(SWAP)
+
+  
+@R0
+A=M
+D=M
+@R13
+M=D
+
+@R1
+A=M
+D=M
+@R14
+M=D
+
+@R14
+D=M
+@R0
+A=M
+M=D
+
+   
+@R13
+D=M
+@R1
+A=M
+M=D
+
+
+@R15
+A=M
+0;JMP
+
+
+
+(a)     
+@0
+M=0
+
+(b)
+@0
+M=0
+
+<img width="1501" height="869" alt="image" src="https://github.com/user-attachments/assets/d1c89eea-6cf1-4621-8ce9-1c6918f1b217" />
 
 
 ## Bitácora de reflexión
+
 
 
