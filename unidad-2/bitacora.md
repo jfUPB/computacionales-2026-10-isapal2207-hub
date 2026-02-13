@@ -27,93 +27,23 @@ M=-1
 # ACTIVIDAD 3
 
 ## Bitácora de aplicación 
-# ACTIVIDAD 8
-//Problema 1
-@10
-D=A
-@a
-M=D
+## Problema 1 
+<img width="1487" height="824" alt="image" src="https://github.com/user-attachments/assets/c6de6226-51ab-4fce-8811-4770ff9f3b7e" />
+En esta captura se observa que la variable a tiene valor 10 y b tiene valor 20.
+Los registros R0 y R1 contienen las direcciones de memoria de a y b, respectivamente.
+Esto simula el paso de punteros como parámetros.
 
-@20
-D=A
-@b
-M=D
-
-@a
-D=A
-@R0
-M=D
-
-@b
-D=A
-@R1
-M=D
-
-@RETURN
-D=A
-@R15
-M=D
-
-   
-@SWAP
-0;JMP
-
-(RETURN)
-
-
-(END)
-@END
-0;JMP
+<img width="1453" height="626" alt="image" src="https://github.com/user-attachments/assets/e8c01387-b6bd-4899-a3eb-1cacce52306d" />
+aquí se observa que R13 guarda el valor original de a (10).
+R14 guarda el valor de b (20).
+Aún no se ha realizado el intercambio en memoria
 
 
 
-(SWAP)
-
-  
-@R0
-A=M
-D=M
-@R13
-M=D
-
-@R1
-A=M
-D=M
-@R14
-M=D
-
-@R14
-D=M
-@R0
-A=M
-M=D
-
-   
-@R13
-D=M
-@R1
-A=M
-M=D
-
-
-@R15
-A=M
-0;JMP
-
-
-
-(a)     
-@0
-M=0
-
-(b)
-@0
-M=0
-
-<img width="1501" height="869" alt="image" src="https://github.com/user-attachments/assets/d1c89eea-6cf1-4621-8ce9-1c6918f1b217" />
 
 
 ## Bitácora de reflexión
+
 
 
 
